@@ -1,7 +1,9 @@
 # JWENKY-SRV
 
 Boilerplate Express API server with user authentication.  
-Uses MySql, and Jwt, with RSA keys, fingerprinted.
+Uses MySql, and Jwt, with RSA keys, fingerprinted.  
+Presented at <a href="https://hackernoon.com/jwenky-an-express-api-server-with-user-authentication-ei283u1t" target="_blank">
+**Hackernoon**</a>
 
 ## Features
 1.  Password forgot, reset  
@@ -63,9 +65,9 @@ with content 'secure: true', to make cookies use https protocol.
 
 ## Configuration  
 ### Email
-Uses [Nodemailer](https://github.com/nodemailer/nodemailer).  
+Uses <a href="https://github.com/nodemailer/nodemailer" target="_blank">**Nodemailer**</a>.  
 In **/config/mail.js** there are two configured example mailers.  
-1.  The 'local' one will work with [Mailhog](https://github.com/mailhog/MailHog) SMTP testing server.
+1.  The 'local' one will work with <a href="https://github.com/mailhog/MailHog" target="_blank">**Mailhog**</a>  SMTP testing server.
 2.  The 'production' mailer uses a common linux server configuration.  
 
 There configurations can be modified, and other configurations can be added as needed.
